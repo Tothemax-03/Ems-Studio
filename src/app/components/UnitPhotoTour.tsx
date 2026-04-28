@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ImageLightbox } from "./ImageLightbox";
-import { buildReactStudioPhotoUrl } from "../../../assets/images/images.js";
+import { buildReactStudioPhotoUrl } from "../data/images";
 
 export interface PhotoTourCategory {
   name: string;

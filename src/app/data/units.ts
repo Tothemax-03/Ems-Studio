@@ -1,4 +1,4 @@
-import { unitDetailImages } from "../../../assets/images/images.js";
+import { unitDetailImages } from "./images";
 
 export interface UnitFeature {
   icon: "bed" | "bath" | "wifi" | "ac" | "kitchen" | "view";

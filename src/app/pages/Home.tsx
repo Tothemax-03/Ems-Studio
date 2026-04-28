@@ -4,7 +4,7 @@ import { AmenitiesSection } from "../components/AmenitiesSection";
 import { AboutSection } from "../components/AboutSection";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
-import { homepageImages } from "../../../assets/images/images.js";
+import { homepageImages } from "../data/images";
 
 export function Home() {
   return (

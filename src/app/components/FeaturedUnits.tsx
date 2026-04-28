@@ -2,7 +2,7 @@ import { UnitCard, Unit } from "./UnitCard";
 import {
   getFeaturedUnitPhotoTourCategories,
   homepageImages,
-} from "../../../assets/images/images.js";
+} from "../data/images";
 
 export function FeaturedUnits() {
   const units: Unit[] = [

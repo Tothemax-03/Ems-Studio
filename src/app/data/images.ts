@@ -29,10 +29,12 @@ export const homepageImages = {
     "https://images.unsplash.com/photo-1768162486464-1ac716d33c7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWElMjB2aWV3JTIwY29uZG8lMjBiYWxjb255JTIwdHJvcGljYWwlMjBvY2VhbnxlbnwxfHx8fDE3NzY2MDU4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
   featuredSeaViewCard:
     "https://a0.muscache.com/im/pictures/hosting/Hosting-1213687251867764010/original/4ff65dc4-04b9-4384-952b-7514da823e85.jpeg?im_w=960",
+  // For imgur, use direct image URLs like: https://i.imgur.com/IMAGEID.jpg
+  // NOT album URLs like: https://imgur.com/a/G3ZbOre
   featuredMountainViewCard:
-    normalizeImgurUrl("https://imgur.com/a/G3ZbOre"),
+    "https://i.imgur.com/G3ZbOre.jpg",
   featuredCityViewCard:
-    "https://images.unsplash.com/photo-1758210480505-253f4dc6a2fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaXR5JTIwdmlldyUyMGFwYXJ0bWVudCUyMG5pZ2h0JTIwdXJiYW4lMjBsaWdodHN8ZW58MXx8fHwxNzc2NjA1ODQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "https://i.imgur.com/2nN6TaX.jpg",
   aboutPoolFeature:
     "https://a0.muscache.com/im/pictures/hosting/Hosting-1213687251867764010/original/4ff65dc4-04b9-4384-952b-7514da823e85.jpeg?im_w=960",
 };

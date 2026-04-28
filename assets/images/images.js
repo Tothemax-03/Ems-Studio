@@ -1,0 +1,162 @@
+export const homepageImages = {
+  heroBanner:
+    "https://images.unsplash.com/photo-1768162486464-1ac716d33c7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWElMjB2aWV3JTIwY29uZG8lMjBiYWxjb255JTIwdHJvcGljYWwlMjBvY2VhbnxlbnwxfHx8fDE3NzY2MDU4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  featuredSeaViewCard:
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1213687251867764010/original/4ff65dc4-04b9-4384-952b-7514da823e85.jpeg?im_w=960",
+  featuredMountainViewCard:
+    "https://images.unsplash.com/photo-1758210480505-253f4dc6a2fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaXR5JTIwdmlldyUyMGFwYXJ0bWVudCUyMG5pZ2h0JTIwdXJiYW4lMjBsaWdodHN8ZW58MXx8fHwxNzc2NjA1ODQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  featuredCityViewCard:
+    "https://images.unsplash.com/photo-1758210480505-253f4dc6a2fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaXR5JTIwdmlldyUyMGFwYXJ0bWVudCUyMG5pZ2h0JTIwdXJiYW4lMjBsaWdodHN8ZW58MXx8fHwxNzc2NjA1ODQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  aboutPoolFeature:
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-1213687251867764010/original/4ff65dc4-04b9-4384-952b-7514da823e85.jpeg?im_w=960",
+};
+
+export const unitDetailImages = {
+  seaView: {
+    heroBanner:
+      "https://images.unsplash.com/photo-1768162486464-1ac716d33c7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWElMjB2aWV3JTIwY29uZG8lMjBiYWxjb255JTIwdHJvcGljYWwlMjBvY2VhbnxlbnwxfHx8fDE3NzY2MDU4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    gallery: [
+      {
+        url: "https://images.unsplash.com/photo-1756640220287-ba9efa89f6e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvY2VhbiUyMGJhbGNvbnklMjBzZWElMjB2aWV3JTIwbHV4dXJ5JTIwY29uZG8lMjBpbnRlcmlvcnxlbnwxfHx8fDE3NzY2MDY3MTF8MA&ixlib=rb-4.1.0&q=80&w=1080", caption: "Balcony with panoramic sea view" },
+      {
+        url: "https://images.unsplash.com/photo-1762199904138-d163fe89540a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3p5JTIwYmVkcm9vbSUyMHdoaXRlJTIwbGluZW4lMjBtb3JuaW5nJTIwbGlnaHR8ZW58MXx8fHwxNzc2NjA2NzExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Cozy bedroom with morning light",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1750764515068-80d222d974bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzdHVkaW8lMjBraXRjaGVuJTIwYXBhcnRtZW50JTIwYnJpZ2h0fGVufDF8fHx8MTc3NjYwNjcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Fully equipped modern kitchen",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1774578341948-f3a15f81a34d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBiYXRocm9vbSUyMGNsZWFuJTIwbWluaW1hbGlzdCUyMHNwYXxlbnwxfHx8fDE3NzY2MDY3MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Clean minimalist bathroom",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1772475329901-58f77a9625ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBsaXZpbmclMjByb29tJTIwc29mYSUyMHdhcm0lMjBjb3p5JTIwaW50ZXJpb3J8ZW58MXx8fHwxNzc2NjA2NzE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Warm and cozy living area",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1760816502497-0af433df7f7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMHNlYSUyMHR1cnF1b2lzZSUyMHdhdGVyJTIwUGhpbGlwcGluZXMlMjBjb2FzdGxpbmV8ZW58MXx8fHwxNzc2NjA2NzE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Tropical sea views from Dumaguete",
+      },
+    ],
+  },
+  mountainView: {
+    heroBanner:
+      "https://images.unsplash.com/photo-1765375522831-b01105fbab14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMHZpZXclMjBhcGFydG1lbnQlMjB3aW5kb3clMjBwZWFjZWZ1bHxlbnwxfHx8fDE3NzY2MDU4Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    gallery: [
+      {
+        url: "https://images.unsplash.com/photo-1724093121167-a598e122f831?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMG1vdW50YWluJTIwZ3JlZW4lMjB2YWxsZXklMjBmb3Jlc3QlMjB2aWV3JTIwd2luZG93fGVufDF8fHx8MTc3NjYwNjcxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Lush tropical mountain view",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1762199904138-d163fe89540a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3p5JTIwYmVkcm9vbSUyMHdoaXRlJTIwbGluZW4lMjBtb3JuaW5nJTIwbGlnaHR8ZW58MXx8fHwxNzc2NjA2NzExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Serene bedroom retreat",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1750764515068-80d222d974bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzdHVkaW8lMjBraXRjaGVuJTIwYXBhcnRtZW50JTIwYnJpZ2h0fGVufDF8fHx8MTc3NjYwNjcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Bright and modern kitchen",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1774578341948-f3a15f81a34d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBiYXRocm9vbSUyMGNsZWFuJTIwbWluaW1hbGlzdCUyMHNwYXxlbnwxfHx8fDE3NzY2MDY3MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Clean spa-style bathroom",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1767953365367-ab79376c4954?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGhpa2luZyUyMHRyYWlsJTIwbHVzaCUyMGdyZWVuJTIwbmF0dXJlfGVufDF8fHx8MTc3NjYwNjcxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Lush nature trails nearby",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1758874573286-c65c3d749a39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNrJTIwd29ya3NwYWNlJTIwbGFwdG9wJTIwd29yayUyMGZyb20lMjBob21lJTIwYXBhcnRtZW50fGVufDF8fHx8MTc3NjYwNjcyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Comfortable work-from-home setup",
+      },
+    ],
+  },
+  cityView: {
+    heroBanner:
+      "https://images.unsplash.com/photo-1758210480505-253f4dc6a2fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaXR5JTIwdmlldyUyMGFwYXJ0bWVudCUyMG5pZ2h0JTIwdXJiYW4lMjBsaWdodHN8ZW58MXx8fHwxNzc2NjA1ODQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    gallery: [
+      {
+        url: "https://images.unsplash.com/photo-1551397967-0ef0cf709509?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaXR5JTIwc2t5bGluZSUyMG5pZ2h0JTIwYXBhcnRtZW50JTIwbGl2aW5nJTIwcm9vbXxlbnwxfHx8fDE3NzY2MDY3MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "City lights at night",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1774311237295-a65a4c1ff38a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzdHVkaW8lMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMGNvenl8ZW58MXx8fHwxNzc2NjA1ODM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Contemporary studio interior",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1762199904138-d163fe89540a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3p5JTIwYmVkcm9vbSUyMHdoaXRlJTIwbGluZW4lMjBtb3JuaW5nJTIwbGlnaHR8ZW58MXx8fHwxNzc2NjA2NzExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Relaxing bedroom",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1774578341948-f3a15f81a34d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBiYXRocm9vbSUyMGNsZWFuJTIwbWluaW1hbGlzdCUyMHNwYXxlbnwxfHx8fDE3NzY2MDY3MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Modern bathroom",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1765862857151-929d42527bc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMGNpdHklMjBzdHJlZXQlMjBjYWZlJTIwcmVzdGF1cmFudCUyMER1bWFndWV0ZSUyMFBoaWxpcHBpbmVzfGVufDF8fHx8MTc3NjYwNjcyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Vibrant city streets below",
+      },
+      {
+        url: "https://images.unsplash.com/photo-1750764515068-80d222d974bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzdHVkaW8lMjBraXRjaGVuJTIwYXBhcnRtZW50JTIwYnJpZ2h0fGVufDF8fHx8MTc3NjYwNjcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+        caption: "Functional kitchen area",
+      },
+    ],
+  },
+};
+
+export const featuredUnitPhotoTours = {
+  studio1: [
+    { name: "Living room", folder: "living-room", images: ["1.jpg", "2.jpg", "3.jpg"] },
+    { name: "Kitchen", folder: "kitchen", images: ["1.jpg", "2.jpg", "3.jpg"] },
+    { name: "Bedroom", folder: "bedroom", images: ["1.jpg", "2.jpg", "3.jpg"] },
+    { name: "Bathroom", folder: "bathroom", images: ["1.jpg", "2.jpg", "3.jpg"] },
+  ],
+  studio2: [
+    { name: "Living room", folder: "living-room", images: ["1.jpg", "2.jpg", "3.jpg"] },
+    { name: "Kitchen", folder: "kitchen", images: ["1.jpg", "2.jpg", "3.jpg"] },
+    { name: "Bedroom", folder: "bedroom", images: ["1.jpg", "2.jpg", "3.jpg"] },
+    { name: "Bathroom", folder: "bathroom", images: ["1.jpg", "2.jpg", "3.jpg"] },
+  ],
+  studio3: [
+    { name: "Living room", folder: "living-room", images: ["1.jpg", "2.jpg", "3.jpg"] },
+    { name: "Kitchen", folder: "kitchen", images: ["1.jpg", "2.jpg", "3.jpg"] },
+    { name: "Bedroom", folder: "bedroom", images: ["1.jpg", "2.jpg", "3.jpg"] },
+    { name: "Bathroom", folder: "bathroom", images: ["1.jpg", "2.jpg", "3.jpg"] },
+  ],
+};
+
+export function getFeaturedUnitPhotoTourCategories(studioSlug) {
+  const categories = featuredUnitPhotoTours[studioSlug] || [];
+  return categories.map((category) => ({
+    ...category,
+    images: [...category.images],
+  }));
+}
+
+export function buildReactStudioPhotoUrl(studioSlug, categoryFolder, fileName) {
+  return `/images/${studioSlug}/${categoryFolder}/${fileName}`;
+}
+
+export const photoTourPageStudios = [
+  {
+    slug: "studio1",
+    name: "Studio 1",
+    photos: [
+      { label: "Living room", file: "living-room.jpg" },
+      { label: "Kitchen", file: "kitchen.jpg" },
+      { label: "Bedroom", file: "bedroom.jpg" },
+    ],
+  },
+  {
+    slug: "studio2",
+    name: "Studio 2",
+    photos: [
+      { label: "Living room", file: "living-room.jpg" },
+      { label: "Bathroom", file: "bathroom.jpg" },
+      { label: "Exterior", file: "exterior.jpg" },
+      { label: "Pool", file: "pool.jpg" },
+    ],
+  },
+];
+
+export function buildPhotoTourPageImageUrl(studioSlug, fileName) {
+  return `./images/${studioSlug}/${fileName}`;
+}

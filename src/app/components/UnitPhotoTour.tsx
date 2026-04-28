@@ -1,11 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ImageLightbox } from "./ImageLightbox";
-import { buildReactStudioPhotoUrl } from "../data/images";
 
 export interface PhotoTourCategory {
   name: string;
-  folder: string;
-  images: string[];
+  urls: string[];
 }
 
 interface UnitPhotoTourProps {
@@ -50,8 +48,8 @@ export function UnitPhotoTour({ studioSlug, categories }: UnitPhotoTourProps) {
   }, [hasScrollableContent, loopedCategories.length]);
 
   const openCategory = (category: PhotoTourCategory) => {
-    const gallery = category.images.slice(0, 4).map((file, idx) => ({
-      url: buildReactStudioPhotoUrl(studioSlug, category.folder, file),
+    const gallery = category.urls.slice(0, 4).map((url, idx) => ({
+      url: url,
       caption: `${category.name} ${idx + 1}`,
     }));
 
@@ -73,10 +71,10 @@ export function UnitPhotoTour({ studioSlug, categories }: UnitPhotoTourProps) {
         className="flex gap-3 overflow-x-auto pb-1 pr-1 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
       >
         {loopedCategories.map((category, idx) => {
-          const cover = category.images[0];
+          const cover = category.urls[0];
           return (
             <button
-              key={`${category.folder}-${idx}`}
+              key={`${category.name}-${idx}`}
               type="button"
               className="group w-[68vw] min-w-[220px] max-w-[290px] sm:w-44 sm:min-w-[176px] md:w-48 md:min-w-[192px] flex-shrink-0 rounded-xl border border-stone-200 bg-white p-2 text-left transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md"
               onClick={(e) => {
@@ -86,7 +84,7 @@ export function UnitPhotoTour({ studioSlug, categories }: UnitPhotoTourProps) {
             >
               <div className="h-20 overflow-hidden rounded-lg bg-stone-100">
                 <img
-                  src={buildReactStudioPhotoUrl(studioSlug, category.folder, cover)}
+                  src={cover}
                   alt={category.name}
                   className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"

@@ -132,22 +132,22 @@ export const unitDetailImages = {
 
 export const featuredUnitPhotoTours = {
   studio1: [
-    { name: "Living room", folder: "living-room", images: ["1.jpg", "2.jpg", "3.jpg"] },
-    { name: "Kitchen", folder: "kitchen", images: ["1.jpg", "2.jpg", "3.jpg"] },
-    { name: "Bedroom", folder: "bedroom", images: ["1.jpg", "2.jpg", "3.jpg"] },
-    { name: "Bathroom", folder: "bathroom", images: ["1.jpg", "2.jpg", "3.jpg"] },
+    { name: "Living room", urls: ["https://i.imgur.com/IMG1.jpg", "https://i.imgur.com/IMG2.jpg", "https://i.imgur.com/IMG3.jpg"] },
+    { name: "Kitchen", urls: ["https://i.imgur.com/IMG4.jpg", "https://i.imgur.com/IMG5.jpg", "https://i.imgur.com/IMG6.jpg"] },
+    { name: "Bedroom", urls: ["https://i.imgur.com/IMG7.jpg", "https://i.imgur.com/IMG8.jpg", "https://i.imgur.com/IMG9.jpg"] },
+    { name: "Bathroom", urls: ["https://i.imgur.com/IMG10.jpg", "https://i.imgur.com/IMG11.jpg", "https://i.imgur.com/IMG12.jpg"] },
   ],
   studio2: [
-    { name: "Living room", folder: "living-room", images: ["1.jpg", "2.jpg", "3.jpg"] },
-    { name: "Kitchen", folder: "kitchen", images: ["1.jpg", "2.jpg", "3.jpg"] },
-    { name: "Bedroom", folder: "bedroom", images: ["1.jpg", "2.jpg", "3.jpg"] },
-    { name: "Bathroom", folder: "bathroom", images: ["1.jpg", "2.jpg", "3.jpg"] },
+    { name: "Living room", urls: ["https://i.imgur.com/IMG13.jpg", "https://i.imgur.com/IMG14.jpg", "https://i.imgur.com/IMG15.jpg"] },
+    { name: "Kitchen", urls: ["https://i.imgur.com/IMG16.jpg", "https://i.imgur.com/IMG17.jpg", "https://i.imgur.com/IMG18.jpg"] },
+    { name: "Bedroom", urls: ["https://i.imgur.com/IMG19.jpg", "https://i.imgur.com/IMG20.jpg", "https://i.imgur.com/IMG21.jpg"] },
+    { name: "Bathroom", urls: ["https://i.imgur.com/IMG22.jpg", "https://i.imgur.com/IMG23.jpg", "https://i.imgur.com/IMG24.jpg"] },
   ],
   studio3: [
-    { name: "Living room", folder: "living-room", images: ["1.jpg", "2.jpg", "3.jpg"] },
-    { name: "Kitchen", folder: "kitchen", images: ["1.jpg", "2.jpg", "3.jpg"] },
-    { name: "Bedroom", folder: "bedroom", images: ["1.jpg", "2.jpg", "3.jpg"] },
-    { name: "Bathroom", folder: "bathroom", images: ["1.jpg", "2.jpg", "3.jpg"] },
+    { name: "Living room", urls: ["https://i.imgur.com/IMG25.jpg", "https://i.imgur.com/IMG26.jpg", "https://i.imgur.com/IMG27.jpg"] },
+    { name: "Kitchen", urls: ["https://i.imgur.com/IMG28.jpg", "https://i.imgur.com/IMG29.jpg", "https://i.imgur.com/IMG30.jpg"] },
+    { name: "Bedroom", urls: ["https://i.imgur.com/IMG31.jpg", "https://i.imgur.com/IMG32.jpg", "https://i.imgur.com/IMG33.jpg"] },
+    { name: "Bathroom", urls: ["https://i.imgur.com/IMG34.jpg", "https://i.imgur.com/IMG35.jpg", "https://i.imgur.com/IMG36.jpg"] },
   ],
 };
 
@@ -155,7 +155,7 @@ export function getFeaturedUnitPhotoTourCategories(studioSlug) {
   const categories = featuredUnitPhotoTours[studioSlug] || [];
   return categories.map((category) => ({
     ...category,
-    images: [...category.images],
+    urls: [...category.urls],
   }));
 }
 
@@ -168,19 +168,19 @@ export const photoTourPageStudios = [
     slug: "studio1",
     name: "Studio 1",
     photos: [
-      { label: "Living room", url: "https://i.imgur.com/IMAGEID1.jpg" },
-      { label: "Kitchen", url: "https://i.imgur.com/IMAGEID2.jpg" },
-      { label: "Bedroom", url: "https://i.imgur.com/IMAGEID3.jpg" },
+      { label: "Living room", url: "https://i.imgur.com/IMG1.jpg" },
+      { label: "Kitchen", url: "https://i.imgur.com/IMG2.jpg" },
+      { label: "Bedroom", url: "https://i.imgur.com/IMG3.jpg" },
     ],
   },
   {
     slug: "studio2",
     name: "Studio 2",
     photos: [
-      { label: "Living room", url: "https://i.imgur.com/IMAGEID4.jpg" },
-      { label: "Bathroom", url: "https://i.imgur.com/IMAGEID5.jpg" },
-      { label: "Exterior", url: "https://i.imgur.com/IMAGEID6.jpg" },
-      { label: "Pool", url: "https://i.imgur.com/IMAGEID7.jpg" },
+      { label: "Living room", url: "https://i.imgur.com/IMG4.jpg" },
+      { label: "Bathroom", url: "https://i.imgur.com/IMG5.jpg" },
+      { label: "Exterior", url: "https://i.imgur.com/IMG6.jpg" },
+      { label: "Pool", url: "https://i.imgur.com/IMG7.jpg" },
     ],
   },
 ];

@@ -133,15 +133,15 @@ export const unitDetailImages = {
 export const featuredUnitPhotoTours = {
   studio1: [
     { name: "Living room", urls: ["https://i.imgur.com/IMG1.jpg", "https://i.imgur.com/IMG2.jpg", "https://i.imgur.com/IMG3.jpg"] },
-    { name: "Kitchen", urls: ["https://i.imgur.com/IMG4.jpg", "https://i.imgur.com/IMG5.jpg", "https://i.imgur.com/IMG6.jpg"] },
+    { name: "Kitchen", urls: ["https://i.imgur.com/dTfANl2.jpeg", "https://i.imgur.com/IMG5.jpg", "https://i.imgur.com/IMG6.jpg"] },
     { name: "Bedroom", urls: ["https://i.imgur.com/IMG7.jpg", "https://i.imgur.com/IMG8.jpg", "https://i.imgur.com/IMG9.jpg"] },
-    { name: "Bathroom", urls: ["https://i.imgur.com/IMG10.jpg", "https://i.imgur.com/IMG11.jpg", "https://i.imgur.com/IMG12.jpg"] },
+    { name: "Bathroom", urls: ["https://i.imgur.com/8a6bb684.jpeg", "https://i.imgur.com/97c9a1d6.jpeg", "https://i.imgur.com/VZKgRQZ.jpeg"] },
   ],
   studio2: [
     { name: "Living room", urls: ["https://i.imgur.com/IMG13.jpg", "https://i.imgur.com/IMG14.jpg", "https://i.imgur.com/IMG15.jpg"] },
-    { name: "Kitchen", urls: ["https://i.imgur.com/IMG16.jpg", "https://i.imgur.com/IMG17.jpg", "https://i.imgur.com/IMG18.jpg"] },
+    { name: "Kitchen", urls: ["https://i.imgur.com/dTfANl2.jpeg", "https://i.imgur.com/IMG17.jpg", "https://i.imgur.com/IMG18.jpg"] },
     { name: "Bedroom", urls: ["https://i.imgur.com/IMG19.jpg", "https://i.imgur.com/IMG20.jpg", "https://i.imgur.com/IMG21.jpg"] },
-    { name: "Bathroom", urls: ["https://i.imgur.com/IMG22.jpg", "https://i.imgur.com/IMG23.jpg", "https://i.imgur.com/IMG24.jpg"] },
+    { name: "Bathroom", urls: ["https://i.imgur.com/8a6bb684.jpeg", "https://i.imgur.com/97c9a1d6.jpeg", "https://i.imgur.com/VZKgRQZ.jpeg"] },
   ],
   studio3: [
     { name: "Living room", urls: ["https://i.imgur.com/IMG25.jpg", "https://i.imgur.com/IMG26.jpg", "https://i.imgur.com/IMG27.jpg"] },

@@ -27,6 +27,7 @@ export function UnitPhotoTour({ studioSlug, categories }: UnitPhotoTourProps) {
 
     let rafId = 0;
     let last = performance.now();
+    let isResetting = false;
 
     const tick = (now: number) => {
       const delta = now - last;
@@ -35,8 +36,15 @@ export function UnitPhotoTour({ studioSlug, categories }: UnitPhotoTourProps) {
       const halfLoopWidth = rail.scrollWidth / 2;
       if (halfLoopWidth > 0) {
         rail.scrollLeft += delta * 0.045;
-        if (rail.scrollLeft >= halfLoopWidth) {
-          rail.scrollLeft -= halfLoopWidth;
+        
+        // Seamlessly reset when reaching halfway point
+        if (rail.scrollLeft >= halfLoopWidth && !isResetting) {
+          isResetting = true;
+          rail.scrollLeft = 0;
+          // Re-enable scrolling after reset
+          setTimeout(() => {
+            isResetting = false;
+          }, 50);
         }
       }
 
@@ -69,6 +77,7 @@ export function UnitPhotoTour({ studioSlug, categories }: UnitPhotoTourProps) {
       <div
         ref={railRef}
         className="flex gap-3 overflow-x-auto pb-1 pr-1 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
+        style={{ scrollBehavior: "auto" }}
       >
         {loopedCategories.map((category, idx) => {
           const cover = category.urls[0];

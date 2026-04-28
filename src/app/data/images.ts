@@ -32,7 +32,7 @@ export const homepageImages = {
   // For imgur, use direct image URLs like: https://i.imgur.com/IMAGEID.jpg
   // NOT album URLs like: https://imgur.com/a/G3ZbOre
   featuredMountainViewCard:
-    "https://i.imgur.com/G3ZbOre.jpg",
+    "https://i.imgur.com/PeBIbjF.jpeg",
   featuredCityViewCard:
     "https://i.imgur.com/2nN6TaX.jpg",
   aboutPoolFeature:
@@ -168,23 +168,24 @@ export const photoTourPageStudios = [
     slug: "studio1",
     name: "Studio 1",
     photos: [
-      { label: "Living room", file: "living-room.jpg" },
-      { label: "Kitchen", file: "kitchen.jpg" },
-      { label: "Bedroom", file: "bedroom.jpg" },
+      { label: "Living room", url: "https://i.imgur.com/IMAGEID1.jpg" },
+      { label: "Kitchen", url: "https://i.imgur.com/IMAGEID2.jpg" },
+      { label: "Bedroom", url: "https://i.imgur.com/IMAGEID3.jpg" },
     ],
   },
   {
     slug: "studio2",
     name: "Studio 2",
     photos: [
-      { label: "Living room", file: "living-room.jpg" },
-      { label: "Bathroom", file: "bathroom.jpg" },
-      { label: "Exterior", file: "exterior.jpg" },
-      { label: "Pool", file: "pool.jpg" },
+      { label: "Living room", url: "https://i.imgur.com/IMAGEID4.jpg" },
+      { label: "Bathroom", url: "https://i.imgur.com/IMAGEID5.jpg" },
+      { label: "Exterior", url: "https://i.imgur.com/IMAGEID6.jpg" },
+      { label: "Pool", url: "https://i.imgur.com/IMAGEID7.jpg" },
     ],
   },
 ];
 
 export function buildPhotoTourPageImageUrl(studioSlug, fileName) {
+  // This function is kept for backwards compatibility
   return `./images/${studioSlug}/${fileName}`;
 }

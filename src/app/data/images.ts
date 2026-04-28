@@ -1,10 +1,36 @@
+// Helper function to convert imgur URLs to direct image URLs
+export function normalizeImgurUrl(url: string): string {
+  if (!url) return url;
+  
+  // If it's already a direct imgur image URL, return as is
+  if (url.includes("i.imgur.com")) {
+    return url;
+  }
+  
+  // Convert imgur.com/a/ALBUM_ID to direct image format
+  // This assumes the first image or a specific image ID
+  if (url.includes("imgur.com/a/")) {
+    const albumId = url.split("imgur.com/a/")[1];
+    // Return direct imgur URL with album ID (works for single images)
+    return `https://i.imgur.com/${albumId}.jpg`;
+  }
+  
+  // Convert imgur.com/IMAGE_ID to direct image format
+  if (url.includes("imgur.com/") && !url.includes("imgur.com/a/")) {
+    const imageId = url.split("imgur.com/")[1];
+    return `https://i.imgur.com/${imageId}.jpg`;
+  }
+  
+  return url;
+}
+
 export const homepageImages = {
   heroBanner:
     "https://images.unsplash.com/photo-1768162486464-1ac716d33c7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzZWElMjB2aWV3JTIwY29uZG8lMjBiYWxjb255JTIwdHJvcGljYWwlMjBvY2VhbnxlbnwxfHx8fDE3NzY2MDU4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
   featuredSeaViewCard:
     "https://a0.muscache.com/im/pictures/hosting/Hosting-1213687251867764010/original/4ff65dc4-04b9-4384-952b-7514da823e85.jpeg?im_w=960",
   featuredMountainViewCard:
-    "https://images.unsplash.com/photo-1758210480505-253f4dc6a2fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaXR5JTIwdmlldyUyMGFwYXJ0bWVudCUyMG5pZ2h0JTIwdXJiYW4lMjBsaWdodHN8ZW58MXx8fHwxNzc2NjA1ODQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    normalizeImgurUrl("https://imgur.com/a/G3ZbOre"),
   featuredCityViewCard:
     "https://images.unsplash.com/photo-1758210480505-253f4dc6a2fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaXR5JTIwdmlldyUyMGFwYXJ0bWVudCUyMG5pZ2h0JTIwdXJiYW4lMjBsaWdodHN8ZW58MXx8fHwxNzc2NjA1ODQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
   aboutPoolFeature:

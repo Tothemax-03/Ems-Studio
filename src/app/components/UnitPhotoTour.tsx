@@ -26,26 +26,16 @@ export function UnitPhotoTour({ studioSlug, categories }: UnitPhotoTourProps) {
     if (!rail) return;
 
     let rafId = 0;
-    let last = performance.now();
-    let isResetting = false;
+    let scrollPos = 0;
+    const speed = 25; // pixels per second
 
     const tick = (now: number) => {
-      const delta = now - last;
-      last = now;
-
-      const halfLoopWidth = rail.scrollWidth / 2;
-      if (halfLoopWidth > 0) {
-        rail.scrollLeft += delta * 0.045;
-        
-        // Seamlessly reset when reaching halfway point
-        if (rail.scrollLeft >= halfLoopWidth && !isResetting) {
-          isResetting = true;
-          rail.scrollLeft = 0;
-          // Re-enable scrolling after reset
-          setTimeout(() => {
-            isResetting = false;
-          }, 50);
-        }
+      scrollPos += speed / 60; // 60 fps
+      
+      const maxScroll = rail.scrollWidth / 2;
+      if (maxScroll > 0) {
+        // Seamless loop without visual interruption
+        rail.scrollLeft = scrollPos % maxScroll;
       }
 
       rafId = window.requestAnimationFrame(tick);
